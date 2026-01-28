@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles globaux */
+@layer base {
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-dark-300 text-gray-100 font-sans antialiased;
+  }
+}
+
+/* Composants personnalisés */
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-6 py-20;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+
+  .card {
+    @apply bg-dark-200 border border-gray-800 rounded-lg p-6 transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/20;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-primary text-dark-300 rounded-lg font-medium transition-all duration-300 hover:bg-primary/90 hover:shadow-lg hover:shadow-primary/50 hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border border-primary text-primary rounded-lg font-medium transition-all duration-300 hover:bg-primary/10;
+  }
+}
+
+/* Animations personnalisées */
+@layer utilities {
+  .animate-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animate-delay-400 {
+    animation-delay: 0.4s;
+  }
+
+  .animate-delay-600 {
+    animation-delay: 0.6s;
+  }
+}
