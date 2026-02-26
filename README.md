@@ -139,7 +139,7 @@ vercel --prod
 
 Pour toute question ou suggestion :
 - Email : erwan.sagnardon@campus-la-chataigneraie.org
-- GitHub : [@ErwanExplorer](https://github.com/ErwanExplorer)
+- GitHub : [@erwancodes](https://github.com/erwancodes)
 
 ---
 

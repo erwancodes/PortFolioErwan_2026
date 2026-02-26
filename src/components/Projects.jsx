@@ -16,12 +16,12 @@ const Projects = () => {
   useEffect(() => {
     const fetchGithubRepos = async () => {
       try {
-        const response = await fetch('https://api.github.com/users/ErwanExplorer/repos?sort=updated&per_page=6')
+        const response = await fetch('https://api.github.com/users/erwancodes/repos?sort=updated&per_page=6')
         const data = await response.json()
 
         // Filtrer et formater les repos
         const formattedRepos = data
-          .filter(repo => !repo.fork && repo.name !== 'ErwanExplorer') // Exclure les forks et le repo profil
+          .filter(repo => !repo.fork && repo.name !== 'erwancodes') // Exclure les forks et le repo profil
           .map(repo => ({
             name: repo.name,
             description: repo.description || 'Projet en développement',
@@ -155,7 +155,7 @@ const Projects = () => {
         {/* Lien vers GitHub */}
         <div className="mt-12 text-center animate-slide-up">
           <a
-            href="https://github.com/ErwanExplorer"
+            href="https://github.com/erwancodes"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

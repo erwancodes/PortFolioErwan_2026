@@ -62,7 +62,7 @@ const Navbar = () => {
 
           {/* CTA Button */}
           <a
-            href="https://github.com/ErwanExplorer"
+            href="https://github.com/erwancodes"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block btn-primary"

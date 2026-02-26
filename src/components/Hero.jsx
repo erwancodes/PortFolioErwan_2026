@@ -57,7 +57,7 @@ const Hero = () => {
               Voir mes projets
             </button>
             <a
-              href="https://github.com/ErwanExplorer"
+              href="https://github.com/erwancodes"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary w-full sm:w-auto"

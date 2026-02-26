@@ -22,8 +22,8 @@ const Contact = () => {
     },
     {
       name: "GitHub",
-      value: "@ErwanExplorer",
-      href: "https://github.com/ErwanExplorer",
+      value: "@erwancodes",
+      href: "https://github.com/erwancodes",
       icon: (
         <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
           <path
